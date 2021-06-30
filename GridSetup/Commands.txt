@@ -1,0 +1,12 @@
+To start selenium hub -: java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+Grid-Console -: http://localhost:4444/grid/console
+
+Selenium node -: java -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub <ip> -port 5556
+
+To start with Chrome browser -: java -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub <ip> -port 5556 -browser browserName=chrome -Dwebdriver.chrome.driver="C:\Users\Rachit\eclipse-workspace\TestNGKeyworddriven\Drivers\chromedriver.exe"
+
+
+To start with FireFox browser -: java -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub <ip> -port 5556 -browser browserName=firefox
+
+Multiple browser(Chrome, Firefox, Internet Explorer) -: java -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub <ip> -port 5556 -browser browserName=firefox browser browserName=chrome browser browserName=iexplore

@@ -1,0 +1,8 @@
+# Created at 2021-06-21T12:03:30.441
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Dpk', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}), userDataDir=C:\Users\Lenovo\AppData\Local\Temp\scoped_dir6800_1471509238}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy={}, goog:chromeOptions={debuggerAddress=localhost:24790}, webdriver.remote.sessionid=4fbdc2093441d7b4e44025dd262a0885, acceptInsecureCerts=false, browserVersion=91.0.4472.114, browserName=chrome, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 4fbdc2093441d7b4e44025dd262a0885
+

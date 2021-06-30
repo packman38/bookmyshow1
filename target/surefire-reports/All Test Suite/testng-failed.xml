@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="test.java.utility.Listner"/>
+  </listeners>
+  <test name="E:/FrameWork/Downloaded/Cognizant-Reusable-Automation-Framework-for-Testing-master/TestNGKeyWordDriven(failed)">
+    <classes>
+      <class name="test.java.runners.SportsTestCase">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="endTest"/>
+          <include name="setUpPage"/>
+          <include name="closeBrowser"/>
+          <include name="launchDriver"/>
+        </methods>
+      </class> <!-- test.java.runners.SportsTestCase -->
+      <class name="test.java.runners.MoviesTestCase">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setUpPage"/>
+        </methods>
+      </class> <!-- test.java.runners.MoviesTestCase -->
+      <class name="test.java.runners.BmsLoginTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setUpPage"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- test.java.runners.BmsLoginTest -->
+    </classes>
+  </test> <!-- E:/FrameWork/Downloaded/Cognizant-Reusable-Automation-Framework-for-Testing-master/TestNGKeyWordDriven(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
